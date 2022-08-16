@@ -20,33 +20,36 @@
         }
         .team_name {
           text-align: start;
+          margin-top: 30px;
           h4 {
             font-family: "Raleway";
             font-weight: 700;
             text-transform: capitalize;
             font-size: $_24px;
             color: $_black;
-            margin-top: 30px;
+            // margin-top: 30px;
           }
         }
         .team_status {
+          margin-top: 6px;
           h5 {
             font-family: "Raleway";
             font-weight: 400;
             text-transform: capitalize;
             font-size: $_18px;
             color: $_red_b_n_a;
-            margin-top: 6px;
+            // margin-top: 6px;
           }
         }
         .team_text {
+          margin-top: 18px;
           p {
             font-family: "Raleway";
             font-weight: 400;
             // text-transform: capitalize;
             font-size: $_18px;
             color: $_grey_text;
-            margin-top: 18px;
+            // margin-top: 18px;
           }
         }
         .team_social-icons {
