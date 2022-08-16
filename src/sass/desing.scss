@@ -1,0 +1,23 @@
+#desing {
+  .container_desing {
+    .desing_wrap {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .card_desing {
+        width: 25%;
+        .card_desing_img {
+          border: $_border;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+      }
+    }
+  }
+}

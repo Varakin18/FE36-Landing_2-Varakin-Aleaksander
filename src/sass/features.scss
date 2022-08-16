@@ -1,0 +1,51 @@
+#features {
+  .container {
+    .features_wrap {
+      margin: 15px auto 115px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .feature_card {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        width: 345px;
+        .features_img {
+          width: 100px;
+          height: 100px;
+          // object-fit: cover;
+          // object-position: center;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+        .features_title {
+          margin: 40px auto 20px;
+          h4 {
+            font-family: "Raleway";
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: $_24px;
+            color: $_black;
+            text-align: center;
+          }
+        }
+        .features_text {
+          p {
+            font-family: "Raleway";
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: $_18px;
+            color: $_grey_text;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

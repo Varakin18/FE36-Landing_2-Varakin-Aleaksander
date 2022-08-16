@@ -1,0 +1,23 @@
+@import "../sass/import.scss";
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Raleway', 'Cardo', sans-serif;
+  overflow-x: hidden;
+
+}
+body {
+  // overflow: hidden;
+  overflow-x: hidden;
+}
+.container{
+  margin: auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}

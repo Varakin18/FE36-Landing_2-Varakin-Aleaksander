@@ -1,0 +1,76 @@
+#team {
+  .container {
+    .team_wrap {
+      margin: 115px auto 115px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      .team_card {
+        width: 270px;
+        .team_img {
+          height: 270px;
+          width: 270px;
+          img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+        .team_name {
+          text-align: start;
+          h4 {
+            font-family: "Raleway";
+            font-weight: 700;
+            text-transform: capitalize;
+            font-size: $_24px;
+            color: $_black;
+            margin-top: 30px;
+          }
+        }
+        .team_status {
+          h5 {
+            font-family: "Raleway";
+            font-weight: 400;
+            text-transform: capitalize;
+            font-size: $_18px;
+            color: $_red_b_n_a;
+            margin-top: 6px;
+          }
+        }
+        .team_text {
+          p {
+            font-family: "Raleway";
+            font-weight: 400;
+            // text-transform: capitalize;
+            font-size: $_18px;
+            color: $_grey_text;
+            margin-top: 18px;
+          }
+        }
+        .team_social-icons {
+          margin-top: 38px;
+          // height: 41px;
+          .social_view {
+            display: flex;
+            li {
+              margin-right: 5px;
+              width: 39px;
+              height: 39px;
+              border: 1px solid #c6cbcd;
+              .fa-brands {
+                line-height: 39px;
+                color: #c6cbcd;
+                text-align: center;
+                position: relative;
+                left: 50%;
+                transform: translate(-50%, 0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

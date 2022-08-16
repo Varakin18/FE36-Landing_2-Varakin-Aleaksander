@@ -1,0 +1,40 @@
+#header {
+  position: sticky;
+  height: 100px;
+  .container {
+    .header_wrap {
+      border-bottom: 1px solid $_grey;
+      position: sticky;
+      line-height: 100px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      .logo {
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        &_img {
+          display: flex;
+          
+        }
+      }
+      .navigation {
+        width: 50%;
+        &_list {
+          display: flex;
+          justify-content: space-between;
+          &--item {
+            a {
+              font-family: "Raleway";
+              font-weight: 700;
+              text-transform: uppercase;
+              font-size: $_13px;
+              color: $_white;
+            }            
+          }
+        }
+      }
+    }
+  }
+}
