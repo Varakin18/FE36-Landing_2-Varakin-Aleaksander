@@ -1,11 +1,8 @@
-
-
 .reviews_wrap {
   background-color: $_bordo;
   width: 100%;
-  // position: relative;
   display: flex;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   overflow: hidden;
 }
 .reviews_wrap_img {
@@ -29,10 +26,8 @@
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  // margin: 80px 100px 0;
   display: flex;
   flex-direction: column;
-  // width: 30%;
 }
 .reviews_text p {
   padding: 10px 0;
@@ -51,5 +46,4 @@
   text-transform: uppercase;
   font-size: $_13px;
   color: $_white;
-  // margin-bottom: 116px;
 }

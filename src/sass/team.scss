@@ -1,7 +1,8 @@
 #team {
+  padding: 75px 0;
   .container {
     .team_wrap {
-      margin: 115px auto 115px;
+      // margin: 115px auto 115px;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -21,25 +22,19 @@
         .team_name {
           text-align: start;
           margin-top: 30px;
-          h4 {
-            font-family: "Raleway";
-            font-weight: 700;
-            text-transform: capitalize;
-            font-size: $_24px;
-            color: $_black;
-            // margin-top: 30px;
-          }
+          font-family: "Raleway";
+          font-weight: 700;
+          text-transform: capitalize;
+          font-size: $_24px;
+          color: $_black;
         }
         .team_status {
           margin-top: 6px;
-          h5 {
-            font-family: "Raleway";
-            font-weight: 400;
-            text-transform: capitalize;
-            font-size: $_18px;
-            color: $_red_b_n_a;
-            // margin-top: 6px;
-          }
+          font-family: "Raleway";
+          font-weight: 400;
+          text-transform: capitalize;
+          font-size: $_18px;
+          color: $_red_b_n_a;          
         }
         .team_text {
           margin-top: 18px;
@@ -57,7 +52,7 @@
           // height: 41px;
           .social_view {
             display: flex;
-            li {
+            .social_view--item {
               margin-right: 5px;
               width: 39px;
               height: 39px;

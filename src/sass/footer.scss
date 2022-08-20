@@ -1,0 +1,22 @@
+#footer {
+  background-color: $_deep_blue;
+}
+.footer_bot {
+  padding: 23px 0;
+  width: 33%;
+  margin: auto;
+  font-family: "Raleway";
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: $_18px;
+  color: $_gray_footer-text;
+  text-align: center;
+}
+.footer_bot_text {
+  font-family: "Raleway";
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: $_18px;
+  color: $_white;
+  text-align: center;
+}
